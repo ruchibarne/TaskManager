@@ -1,0 +1,18 @@
+.button {
+    background-color: #0b002a; /* Dark background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 20px; /* Rounded corners */
+    border: none; /* Remove default border */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    display: flex; /* Aligns text and icon */
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+}
+
+.button:hover {
+    background-color: #080024; /* Slightly darker on hover */
+}
